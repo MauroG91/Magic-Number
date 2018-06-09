@@ -1,0 +1,52 @@
+#encabezado{
+  background: rgb(147, 149, 203);
+  height: 50px;
+  width: 400px;
+  position: relative;
+  border: 2px solid black;
+}
+
+h1{
+  position: relative;
+  right: -80px;
+  top: -15px;
+  text-decoration: underline;
+}
+
+#contenedor{
+  background-color: rgb(152, 215, 130);
+  height: 230px;
+  width: 400px;
+  position:relative;
+
+  border: 2px solid black;
+}
+
+.text{
+  font-family: Helvetica;
+  position: relative;
+  right: -20px;
+  top: 25px;
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+h2{
+  position: relative;
+  right: -40px;
+
+  text-decoration: underline;
+
+}
+
+.text, h2, #btn1, li {
+  position: relative;
+  top: -15px;
+}
+
+#btn1{
+  height:auto;
+  width: 100px;
+  position:relative;
+  right: -150px;
+}
